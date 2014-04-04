@@ -1,0 +1,82 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div id="myCarousel" class="carousel slide">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Crowdmining');"></div>
+            <div class="carousel-caption">
+                <h1>Donate your computing cycles</h1>
+            </div>
+        </div>
+        <div class="item">
+            <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Donate');"></div>
+            <div class="carousel-caption">
+                @*<h1>
+                    Additional Layout Options at <a href="http://startbootstrap.com">http://startbootstrap.com</a>
+                </h1>*@
+            </div>
+        </div>
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="icon-prev"></span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="icon-next"></span>
+    </a>
+</div>
+
+<div class="section">
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-4 col-md-4">
+                <h3><i class="fa fa-check-circle"></i> Charity cause</h3>
+                <p>Select the charity cause that you want to donate to <br /><a href="/Charities">Go to the list</a><br /> All the causes have been validated</p>
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <h3><i class="fa fa-cogs"></i> Configure your rig</h3>
+                <p>If you're an expert miner using p2pool, just select your charity cause bitcoin address and connect to the pool.<br /> If you have doubts about the process <a href="/Faq">Click Here</a></p>
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <h3><i class="fa fa-btc"></i> Donate directly</h3>
+                <p>This is great! Select the charity cause bitcoin address from the list and just donate ;) If you need more info on how to donate <a href="/Faq">Click here</a></p>
+            </div>
+        </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+</div>
+<!-- /.section -->
+
+<div class="container">
+
+    <div class="row well">
+        <div class="col-lg-9 col-md-9">
+            <h4>All the charity causes in Coins4Good have been validated and are real</h4>
+            <p>If you mine using our pool, all the bitcoins go to the charity selected. No fees, no charges. Everything goes directly to the cause.</p>
+        </div>
+        <div class="col-lg-3 col-md-3">
+            <a class="btn btn-lg btn-primary pull-right" href="/Charities">Donate to charities!</a>
+        </div>
+    </div>
+    <!-- /.row -->
+
+</div>
+<!-- /.container -->
+
+
+

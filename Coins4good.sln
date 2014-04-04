@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30324.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coins4good", "Coins4good\Coins4good.csproj", "{261C3D9C-AB04-46CB-B166-6C85A83A859F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{FF7E16EF-75FD-4733-873C-4F0DA69392A3}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebAppPublishModule.psm1 = PublishScripts\AzureWebAppPublishModule.psm1
+		PublishScripts\Publish-WebApplication.ps1 = PublishScripts\Publish-WebApplication.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{7075249E-32EB-40B2-BECB-3F19A6427CBB}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\Coins4good-WAWS-dev.json = PublishScripts\Configurations\Coins4good-WAWS-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{261C3D9C-AB04-46CB-B166-6C85A83A859F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{261C3D9C-AB04-46CB-B166-6C85A83A859F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{261C3D9C-AB04-46CB-B166-6C85A83A859F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{261C3D9C-AB04-46CB-B166-6C85A83A859F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7075249E-32EB-40B2-BECB-3F19A6427CBB} = {FF7E16EF-75FD-4733-873C-4F0DA69392A3}
+	EndGlobalSection
+EndGlobal
